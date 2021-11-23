@@ -14,9 +14,7 @@ public class OperacionD {
 	}
 
 	public int Facto(int a) {
-
 		int admi = 1;
-
 		for(int i = 1; i <= a; i++) {
 			admi = admi * i;
 		}
