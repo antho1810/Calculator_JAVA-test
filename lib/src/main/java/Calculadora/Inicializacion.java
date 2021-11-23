@@ -1,7 +1,6 @@
 package Calculadora;
 
 
-
 public class Inicializacion {
 	public int Operacion(String obtener, int[] valor) {
 		OperacionB base = new OperacionB();
@@ -12,19 +11,19 @@ public class Inicializacion {
 		int b = valor[1];
 		
 		if(obtener == "Suma") {
-			base.Suma(a,b);
+			 return base.Suma(a,b);
 		}
 		if(obtener == "Resta") {
-			base.Resta(a,b);
+			return base.Resta(a,b);
 		}
 		if(obtener == "Multi") {
-			derivada.Multi(a,b);
+			return derivada.Multi(a,b);
 		}
 		if(obtener == "Poten") {
-			derivada.Poten(a,b);
+			return derivada.Poten(a,b);
 		}
 		if(obtener == "Fact") {
-			derivada.Facto(a);
+			return derivada.Facto(a);
 		}
 		return 0;
 	}
